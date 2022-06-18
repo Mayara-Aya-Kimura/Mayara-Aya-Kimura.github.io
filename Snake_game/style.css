@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap%27');
+
+/*Definição dos parâmetros pro dark-mode w light-mode*/
+:root {
+    --secondary-color: white;
+    --header-color: #151C35;
+    --background: url('./imagens/background.png');
+
+}
+
+.dark-mode {
+    --secondary-color: black;
+    --header-color: #a6adc4;
+    --background: url('./imagens/background5.jpg');
+}
+
+.container-fluid {
+    font-family: 'Anton';
+    background-color: var(--header-color);
+
+}
+
+
+.nav-item {
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.logo-image {
+    width: 80px;
+    top: 0px;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    margin-top: -9px;
+}
+
+
+canvas {
+    border: 3px solid green;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao a {
+    cursor: pointer;
+    background-color: rgb(228, 164, 86);
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+    margin: 30px 0;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: 'Anton';
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+
+.botao a:hover {
+    background-color: rgb(226, 143, 42);
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
